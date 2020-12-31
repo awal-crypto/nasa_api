@@ -14,7 +14,7 @@ def write_sol_data(sol, sol_obj):
 nama = "awaluddin"
 nim = "1808001010011"
 api_key = "reEAPqGeHGsqoSJ6sP0IA4zRVBasyEfM0WyYVlqk"
-url = "https://api.nasa.gov/insight_weather/?api_key="+reEAPqGeHGsqoSJ6sP0IA4zRVBasyEfM0WyYVlqk+"&feedtype=json&ver=1.0"
+url = "https://api.nasa.gov/insight_weather/?api_key="+api_key+"&feedtype=json&ver=1.0"
 
 response = request.urlopen(url)
 data = json.loads(response.read())
